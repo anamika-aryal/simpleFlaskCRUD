@@ -1,0 +1,19 @@
+body{
+    margin: 100px;
+    background-color: cadetblue;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.insertion{
+    margin: 50px;
+}
+th, td{
+    color: white;
+}
+.update{
+    margin: 50px;
+}
+table{
+    margin: 50px;
+}

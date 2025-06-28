@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block insert %}
+    
+    <div class="insertion">
+        {% block error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endblock %}
+        <form action="" method='post'>
+        Full name: <input type="text" name="fname" id=""> <br> <br>
+        Address: <input type="text" name="address" id=""> <br> <br>
+        SGPA: <input type="text" name="sgpa" id=""> <br> <br>
+        <input type="submit" name="" id="" value='insert'>
+    </form>
+    </div>
+{% endblock %}
+
